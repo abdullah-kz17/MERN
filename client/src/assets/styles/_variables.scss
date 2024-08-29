@@ -1,0 +1,25 @@
+// Light mode colors
+$primary-color-light: #3498db;
+$secondary-color-light: #2ecc71;
+$background-color-light: #f4f4f4;
+$text-color-light: #333;
+
+// Dark mode colors
+$primary-color-dark: #1abc9c;
+$secondary-color-dark: #e74c3c;
+$background-color-dark: #2c3e50;
+$text-color-dark: #ecf0f1;
+
+// Toggle between light and dark mode
+$primary-color: $primary-color-light;
+$secondary-color: $secondary-color-light;
+$background-color: $background-color-light;
+$text-color: $text-color-light;
+
+// Dark mode mixin
+@mixin dark-mode {
+  $primary-color: $primary-color-dark;
+  $secondary-color: $secondary-color-dark;
+  $background-color: $background-color-dark;
+  $text-color: $text-color-dark;
+}
